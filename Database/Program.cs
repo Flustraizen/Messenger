@@ -1,6 +1,9 @@
 ﻿using System;
+using System.IO;
 using System.Linq;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace Database
 {
@@ -8,16 +11,10 @@ namespace Database
     {
         public DbSet<User> Users { get; set; }
 
-        public ApplicationContext()
+        public ApplicationContext(DbContextOptions<ApplicationContext> options) 
+            :base(options)
         {
             Database.EnsureCreated();
-        }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-S9G1N32\\SQLEXPRESS;" +
-                                        "Database=messengerdb;" +
-                                        "Trusted_Connection=True;");
         }
     }
     
@@ -25,7 +22,15 @@ namespace Database
     {
         private static void Main()
         {
-            using (var db = new ApplicationContext())
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json")
+                .Build();
+
+            var connectionString = builder.GetConnectionString("DefaultConnection");
+            var optionsBuilder = new DbContextOptionsBuilder<ApplicationContext>();
+            var options = optionsBuilder.UseSqlServer(connectionString).Options;
+            using (var db = new ApplicationContext(options))
             {
                 var user1 = new User { 
                     Name = "Mikhail", 
@@ -38,10 +43,6 @@ namespace Database
                     Surname = "Smirnov"
                 };
                 
-                db.Users.Add(user1);
-                db.Users.Add(user2);
-                db.SaveChanges();
-
                 var users = db.Users.ToList();
                 foreach (var u in users)
                 {

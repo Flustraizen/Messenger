@@ -79,8 +79,15 @@ C:\Gitter\Messenger\Database\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandar
 C:\Gitter\Messenger\Database\obj\Debug\netcoreapp3.1\Database.csprojAssemblyReference.cache
 C:\Gitter\Messenger\Database\obj\Debug\netcoreapp3.1\Database.AssemblyInfoInputs.cache
 C:\Gitter\Messenger\Database\obj\Debug\netcoreapp3.1\Database.AssemblyInfo.cs
-C:\Gitter\Messenger\Database\obj\Debug\netcoreapp3.1\Database.csproj.CoreCompileInputs.cache
 C:\Gitter\Messenger\Database\obj\Debug\netcoreapp3.1\Database.csproj.CopyComplete
 C:\Gitter\Messenger\Database\obj\Debug\netcoreapp3.1\Database.dll
 C:\Gitter\Messenger\Database\obj\Debug\netcoreapp3.1\Database.pdb
 C:\Gitter\Messenger\Database\obj\Debug\netcoreapp3.1\Database.genruntimeconfig.cache
+C:\Gitter\Messenger\Database\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Gitter\Messenger\Database\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Gitter\Messenger\Database\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Gitter\Messenger\Database\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Gitter\Messenger\Database\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Gitter\Messenger\Database\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Gitter\Messenger\Database\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Gitter\Messenger\Database\obj\Debug\netcoreapp3.1\Database.csproj.CoreCompileInputs.cache
