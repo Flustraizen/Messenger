@@ -15,7 +15,7 @@ namespace Database
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;" +
+            optionsBuilder.UseSqlServer("Server=DESKTOP-S9G1N32\\SQLEXPRESS;" +
                                         "Database=messengerdb;" +
                                         "Trusted_Connection=True;");
         }
@@ -28,14 +28,12 @@ namespace Database
             using (var db = new ApplicationContext())
             {
                 var user1 = new User { 
-                    Id = 1,
                     Name = "Mikhail", 
                     Surname = "Vikhrov"
                 };
                 
                 var user2 = new User
                 {
-                    Id = 2,
                     Name = "Matvey",
                     Surname = "Smirnov"
                 };
@@ -50,7 +48,7 @@ namespace Database
                     Console.WriteLine($"{u.Id}.{u.Name} {u.Surname}");
                 }
             }
-            Console.WriteLine();
+            Console.ReadKey();
         }
     }
 }
