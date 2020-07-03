@@ -26,7 +26,6 @@ namespace Database
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json")
                 .Build();
-
             var connectionString = builder.GetConnectionString("DefaultConnection");
             var optionsBuilder = new DbContextOptionsBuilder<ApplicationContext>();
             var options = optionsBuilder.UseSqlServer(connectionString).Options;
@@ -42,13 +41,21 @@ namespace Database
                     Name = "Matvey",
                     Surname = "Smirnov"
                 };
-                
+                db.Users.Add(user1);
+                db.Users.Add(user2);
+
                 var users = db.Users.ToList();
                 foreach (var u in users)
                 {
                     Console.WriteLine($"{u.Id}.{u.Name} {u.Surname}");
                 }
+
+                db.Users.Remove(user1);
+                db.Users.Remove(user2);
+                db.SaveChanges();
+
             }
+
             Console.ReadKey();
         }
     }

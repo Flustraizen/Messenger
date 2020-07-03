@@ -90,4 +90,6 @@ C:\Gitter\Messenger\Database\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Config
 C:\Gitter\Messenger\Database\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
 C:\Gitter\Messenger\Database\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Gitter\Messenger\Database\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Gitter\Messenger\Database\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Gitter\Messenger\Database\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
 C:\Gitter\Messenger\Database\obj\Debug\netcoreapp3.1\Database.csproj.CoreCompileInputs.cache
