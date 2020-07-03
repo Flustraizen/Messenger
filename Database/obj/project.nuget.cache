@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iIRRoszqi4V3CsRQHb7JKZsYxJLKUcSqUhxhIuf3JePj5RGmCv7mTJvkHw9km/AHdgQ52lEkvC7MbWoI6LMSQA==",
+  "dgSpecHash": "w7bIHEi3SViO0MCYvkr5vo18mYRkM8WgeFHyr+NWUj9vznyxa1DYblP354RrP8ZRuXh4GFtXEr3nbaoIOFNDJw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Amariel\\source\\repos\\MessengerApi\\Database\\Database.csproj",
+  "projectFilePath": "C:\\Gitter\\Messenger\\Database\\Database.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Amariel\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Amariel\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

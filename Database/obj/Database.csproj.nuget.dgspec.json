@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Amariel\\source\\repos\\MessengerApi\\Database\\Database.csproj": {}
+    "C:\\Gitter\\Messenger\\Database\\Database.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Amariel\\source\\repos\\MessengerApi\\Database\\Database.csproj": {
+    "C:\\Gitter\\Messenger\\Database\\Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amariel\\source\\repos\\MessengerApi\\Database\\Database.csproj",
+        "projectUniqueName": "C:\\Gitter\\Messenger\\Database\\Database.csproj",
         "projectName": "Database",
-        "projectPath": "C:\\Users\\Amariel\\source\\repos\\MessengerApi\\Database\\Database.csproj",
+        "projectPath": "C:\\Gitter\\Messenger\\Database\\Database.csproj",
         "packagesPath": "C:\\Users\\Amariel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amariel\\source\\repos\\MessengerApi\\Database\\obj\\",
+        "outputPath": "C:\\Gitter\\Messenger\\Database\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

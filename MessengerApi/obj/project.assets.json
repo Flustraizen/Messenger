@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Amariel\\source\\repos\\MessengerApi\\MessengerApi\\MessengerApi.csproj",
+      "projectUniqueName": "C:\\Gitter\\Messenger\\MessengerApi\\MessengerApi.csproj",
       "projectName": "MessengerApi",
-      "projectPath": "C:\\Users\\Amariel\\source\\repos\\MessengerApi\\MessengerApi\\MessengerApi.csproj",
+      "projectPath": "C:\\Gitter\\Messenger\\MessengerApi\\MessengerApi.csproj",
       "packagesPath": "C:\\Users\\Amariel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Amariel\\source\\repos\\MessengerApi\\MessengerApi\\obj\\",
+      "outputPath": "C:\\Gitter\\Messenger\\MessengerApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
