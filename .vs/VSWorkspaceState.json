@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Angular\\ClientApp",
     "\\Database",
     "\\MessengerApi"
   ],
+  "SelectedNode": "\\MessengerApi.sln",
   "PreviewInSolutionExplorer": false
 }

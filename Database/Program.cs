@@ -7,16 +7,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace Database
 {
-    public sealed class ApplicationContext : DbContext
-    {
-        public DbSet<User> Users { get; set; }
-
-        public ApplicationContext(DbContextOptions<ApplicationContext> options) 
-            :base(options)
-        {
-            Database.EnsureCreated();
-        }
-    }
+    
     
     internal class Program
     {
@@ -41,18 +32,14 @@ namespace Database
                     Name = "Matvey",
                     Surname = "Smirnov"
                 };
-                db.Users.Add(user1);
-                db.Users.Add(user2);
+                db.Users.AddRange(user1, user2);
+                db.SaveChanges();
 
                 var users = db.Users.ToList();
                 foreach (var u in users)
                 {
                     Console.WriteLine($"{u.Id}.{u.Name} {u.Surname}");
                 }
-
-                db.Users.Remove(user1);
-                db.Users.Remove(user2);
-                db.SaveChanges();
 
             }
 
