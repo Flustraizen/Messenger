@@ -23,14 +23,14 @@ namespace Database
             using (var db = new ApplicationContext(options))
             {
                 var user1 = new User { 
-                    Name = "Mikhail", 
-                    Surname = "Vikhrov"
+                    FirstName = "Mikhail", 
+                    LastName = "Vikhrov"
                 };
                 
                 var user2 = new User
                 {
-                    Name = "Matvey",
-                    Surname = "Smirnov"
+                    FirstName = "Matvey",
+                    LastName = "Smirnov"
                 };
 
                 db.Users.AddRange(user1, user2);
@@ -40,9 +40,8 @@ namespace Database
                 
                 foreach (var u in users)
                 {
-                    Console.WriteLine($"{u.Id}.{u.Name} {u.Surname} : ");
+                    Console.WriteLine($"{u.Id}.{u.Name} : ");
                 }
-
 
             }
 

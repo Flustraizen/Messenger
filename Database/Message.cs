@@ -6,14 +6,13 @@ using System.Text;
 
 namespace Database
 {
-    [Table("Messages")]
     public class Message
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int Id { get; set; }
-        [Required]
         public string Text { get; set; }
+        public string Sender { get; set; }
+        public string Receiver { get; set; }
+
     }
 }
     
